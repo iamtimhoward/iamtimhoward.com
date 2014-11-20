@@ -75,9 +75,20 @@ nav ul li{
 }
 
 /*---------------*/
+/*Panels*/
+/*---------------*/
+
+
+
+
+/*---------------*/
 /*Footer*/
 /*---------------*/
 
 footer hr {
 	width: 75%;
+}
+
+#copyright {
+	text-align: center
 }
