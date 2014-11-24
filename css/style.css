@@ -52,9 +52,10 @@ table {
 body {
 	width: 100%;
 	background-color: #EBE8E4;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "HelveticaNeue-Light" 
+	             "Helvetica Neue", Helvetica, 
+	              Arial, "Lucida Grande", sans-serif;
 	color: #222;
-
 }
 
 /*---------------*/
@@ -63,6 +64,10 @@ body {
 nav {
 	display: block;
 	margin-bottom: 5px;
+}
+
+nav a {
+	text-decoration: none;
 }
 
 nav a#brand {
@@ -77,6 +82,8 @@ nav ul li{
 	display: inline;
 	padding: 1em;
 }
+
+
 
 .clearfix {
 	clear: both;
@@ -124,4 +131,8 @@ footer hr {
 
 .center-text {
 	text-align: center;
+}
+
+.bold-font {
+	font-weight: 700;
 }
