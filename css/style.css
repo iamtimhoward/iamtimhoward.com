@@ -117,3 +117,11 @@ footer hr {
 #copyright {
 	text-align: center
 }
+
+/*---------------*/
+/*Text Formatting*/
+/*---------------*/
+
+.center-text {
+	text-align: center;
+}
