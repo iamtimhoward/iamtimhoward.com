@@ -63,7 +63,8 @@ body {
 /*---------------*/
 nav {
 	display: block;
-	margin-bottom: 5px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 nav a {
@@ -133,6 +134,6 @@ footer hr {
 	text-align: center;
 }
 
-.bold-font {
+.font-weight {
 	font-weight: 700;
 }
