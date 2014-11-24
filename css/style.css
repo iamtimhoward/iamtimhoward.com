@@ -63,7 +63,7 @@ body {
 /*---------------*/
 nav {
 	display: block;
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-bottom: 40px;
 }
 
@@ -72,7 +72,8 @@ nav a {
 }
 
 nav a#brand {
-	/*display: inline-block;*/
+	line-height: 54px;
+	/*display: block;*/
 }
 
 nav ul {
@@ -80,11 +81,37 @@ nav ul {
 }
 
 nav ul li{
-	display: inline;
-	padding: 1em;
+	display: inline-block;
+	color: #aaa;
+
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
+nav ul li a {
+	padding: 0 24px;
+	line-height: 57px;
+}
 
+nav ul li a:link {
+	color: #aaa;
+}
+
+nav ul li a:visited {
+	color: #aaa;
+}
+
+nav ul li:hover {
+	background-color: rgb(40, 44, 47);
+	border-radius: 4px;
+}
+
+nav  ul li:hover a {
+	color: rgb( 255, 255, 255);
+} 
 
 .clearfix {
 	clear: both;
@@ -136,4 +163,12 @@ footer hr {
 
 .font-weight {
 	font-weight: 700;
+}
+
+/*---------------*/
+/*Positioning*/
+/*---------------*/
+
+.center-object {
+	margin: 0 auto;
 }
